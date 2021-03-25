@@ -1,3 +1,5 @@
+##MNIST DIGITS SEQUENCER API
+
 #Build image
 docker-compose build
 
