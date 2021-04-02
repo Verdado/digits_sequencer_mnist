@@ -4,6 +4,9 @@ docker-compose build
 # Bring up container
 docker-compose up -d
 
+# Get inside the container
+docker exec -it digits_sequencer_mnist_mnist_app_1 bash
+
 # Go to WORKDIR
 cd /MNIST
 

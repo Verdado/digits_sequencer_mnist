@@ -1,6 +1,7 @@
 version: '2.1'
 services:
     mnist_app:
-      image: mnist:oliver
+      build:
+        context: ./
       volumes:
         - ./MNIST:/MNIST:rw
